@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dntech Professional - Africa's trusted technology partner providing reliable web development, network solutions, IT support, and cybersecurity services across the continent.">
+    <meta name="keywords" content="African tech services, web development Africa, IT support, cybersecurity, network solutions, digital transformation Africa">
+    <title>Dntech- Africa's Tech Solutions</title>
+    <link rel="stylesheet" href="../css/main.css">
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdntechpro9801back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="font-body text-text-primary">
+    
+    <!-- Navigation Header -->
+    <header class="bg-surface shadow-card sticky top-0 z-50">
+        <nav class="container-custom">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <a href="homepage.html" class="flex items-center space-x-3 group">
+                   <img src ="../images/DN4.png" alt="Dntech Logo"   class="w-10 h-10 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none">
+                          <rect width="40" height="40" rx="8" fill="#007bff"/>
+                        <path d="M12 28V12H16.5C18.5 12 20 13 21 14.5C22 16 22 18 21 19.5C20 21 18.5 22 16.5 22H15V28H12ZM15 19H16.5C17.5 19 18 18.5 18.5 17.5C19 16.5 19 15.5 18.5 14.5C18 13.5 17.5 13 16.5 13H15V19Z" fill="white"/>
+                        <path d="M23 28V12H28L32 22V12H35V28H30L26 18V28H23Z" fill="#FF6B35"/>
+                    </svg>
+                    <div class="flex flex-col">
+                        <span class="font-heading font-bold text-xl text-primary">Dntech</span>
+                        
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-primary font-semibold border-b-2 border-primary pb-1 transition-colors duration-200">Home</a>
+                    <a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Services</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-colors duration-200">About</a>
+                    <a href="support.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Support</a>
+                    <a href="contactus.html" class="btn-primary">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-md hover:bg-primary-50 transition-colors duration-200" aria-label="Toggle mobile menu">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobileMenu" class="hidden lg:hidden pb-4 space-y-3">
+                <a href="homepage.html" class="block px-4 py-2 text-primary font-semibold bg-primary-50 rounded-md">Home</a>
+                <a href="services.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">Services</a>
+                <a href="about.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">About</a>
+                <a href="support.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">Support</a>
+                <a href="contact.html" class="block px-4 py-2 text-center bg-primary text-white rounded-md hover:bg-primary-600 transition-colors duration-200">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Rotating Success Stories -->
+    <section class="relative bg-gradient-to-br from-primary-50 via-surface to-accent-50 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="200" cy="200" r="300" fill="#007bff"/>
+                <circle cx="1000" cy="600" r="400" fill="#FF6B35"/>
+                <circle cx="600" cy="400" r="250" fill="#8B4513"/>
+            </svg>
+        </div>
+        
+        <div class="container-custom relative z-10 py-20 lg:py-32">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-6 fade-in">
+                    <div class="inline-flex items-center space-x-2 bg-accent-50 px-4 py-2 rounded-full">
+                        <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <span class="text-accent font-semibold text-sm">Trusted by 100+ African Businesses</span>
+                    </div>
+                    
+                    <h1 class="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-text-primary leading-tight">
+                        Africa's Trusted <span class="text-primary">Technology Partner</span>
+                    </h1>
+                    
+                    <p class="text-lg md:text-xl text-text-secondary leading-relaxed">
+                        Bridging the digital divide with reliable, innovative, and culturally-aware tech solutions. From web development to cybersecurity, we empower African businesses to thrive in the digital age.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="contact.html" class="btn-primary text-center">
+                            Request Consultation
+                            <svg class="w-5 h-5 ml-2 inline-block animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                        <a href="services.html" class="btn-outline text-center">
+                            Explore Services
+                        </a>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="flex flex-wrap items-center gap-6 pt-8 border-t border-border-light">
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">ISO Certified</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">24/7 Support</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-medium text-text-secondary">Pan-African Coverage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image/Visual -->
+                <div class="relative slide-up">
+                    <div class="relative rounded-xl overflow-hidden shadow-elevated">
+                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_15ee5373f-1764645268112.png" 
+                             alt="African technology professionals collaborating in modern office environment with laptops and digital displays" 
+                             class="w-full h-[400px] lg:h-[600px] object-cover"
+                             loading="eager"
+                             onerror="this.src='https://img.rocket.new/generatedImages/rocket_gen_img_1478bcc45-1764651525877.png'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent"></div>
+                        
+                        <!-- Floating Success Metric Card -->
+                        <div class="absolute bottom-6 left-6 right-6 bg-surface/95 backdrop-blur-sm rounded-lg p-4 shadow-elevated scale-in">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-sm text-text-secondary">Success Rate</p>
+                                    <p class="text-2xl font-bold text-primary">98.5%</p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-sm text-text-secondary">Projects Delivered</p>
+                                    <p class="text-2xl font-bold text-accent">1,200+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Decorative Elements -->
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-accent rounded-full opacity-20 blur-2xl"></div>
+                    <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-primary rounded-full opacity-20 blur-2xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Highlights Section -->
+    <section class="section bg-surface">
+        <div class="container-custom">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-text-primary mb-4">
+                    Comprehensive <span class="text-primary">Tech Solutions</span>
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    From web development to cybersecurity, we provide end-to-end technology services tailored for African businesses
+                </p>
+            </div>
+
+            <!-- Horizontal Scrolling Service Cards -->
+            <div class="relative">
+                <div id="servicesCarousel" class="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
+                    <!-- Web Development Card -->
+                    <div class="flex-none w-full sm:w-80 snap-center">
+                        <div class="card group hover:scale-105 transition-transform duration-300 h-full">
+                            <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_11a0236bb-1764651527759.png" 
+                                     alt="Web development code on computer screen showing modern responsive website design" 
+                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                     loading="lazy"
+                                     onerror="this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2944&auto=format&fit=crop'; this.onerror=null;">
+                                <div class="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent"></div>
+                                <div class="absolute bottom-4 left-4">
+                                    <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Web Development</h3>
+                            <p class="text-text-secondary mb-4">Custom websites and web applications built with modern technologies, optimized for African internet speeds</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Responsive Design</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">E-commerce Solutions</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Performance Optimization</span>
+                                </li>
+                            </ul>
+                            <a href="services.html" class="btn-outline w-full">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Network Solutions Card -->
+                    <div class="flex-none w-full sm:w-80 snap-center">
+                        <div class="card group hover:scale-105 transition-transform duration-300 h-full">
+                            <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1eb82f575-1764664247596.png" 
+                                     alt="Network infrastructure with server racks and fiber optic cables in modern data center" 
+                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                     loading="lazy"
+                                     onerror="this.src='https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1200'; this.onerror=null;">
+                                <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/80 to-transparent"></div>
+                                <div class="absolute bottom-4 left-4">
+                                    <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Network Solutions</h3>
+                            <p class="text-text-secondary mb-4">Robust network infrastructure design, implementation, and management for seamless connectivity</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Network Design & Setup</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Cloud Integration</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">24/7 Monitoring</span>
+                                </li>
+                            </ul>
+                            <a href="services.html" class="btn-outline w-full">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- IT Support Card -->
+                    <div class="flex-none w-full sm:w-80 snap-center">
+                        <div class="card group hover:scale-105 transition-transform duration-300 h-full">
+                            <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1d2168e49-1764651381819.png" 
+                                     alt="IT support team providing technical assistance with computers and help desk services" 
+                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                     loading="lazy"
+                                     onerror="this.src='https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2874&auto=format&fit=crop'; this.onerror=null;">
+                                <div class="absolute inset-0 bg-gradient-to-t from-accent-900/80 to-transparent"></div>
+                                <div class="absolute bottom-4 left-4">
+                                    <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">IT Support</h3>
+                            <p class="text-text-secondary mb-4">Comprehensive technical support and maintenance services to keep your business running smoothly</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Help Desk Services</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">System Maintenance</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Remote Support</span>
+                                </li>
+                            </ul>
+                            <a href="services.html" class="btn-outline w-full">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Cybersecurity Card -->
+                    <div class="flex-none w-full sm:w-80 snap-center">
+                        <div class="card group hover:scale-105 transition-transform duration-300 h-full">
+                            <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_116626282-1764666211104.png" 
+                                     alt="Cybersecurity concept with digital lock and shield protecting network infrastructure" 
+                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                     loading="lazy"
+                                     onerror="this.src='https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;">
+                                <div class="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent"></div>
+                                <div class="absolute bottom-4 left-4">
+                                    <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Cybersecurity</h3>
+                            <p class="text-text-secondary mb-4">Protect your business with comprehensive security solutions and threat management</p>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Security Audits</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Threat Detection</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <svg class="w-5 h-5 text-success flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm text-text-secondary">Data Protection</span>
+                                </li>
+                            </ul>
+                            <a href="services.html" class="btn-outline w-full">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Navigation Dots -->
+                <div class="flex justify-center gap-2 mt-4">
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-primary transition-all duration-300" data-index="0" aria-label="Go to slide 1"></button>
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-border hover:bg-primary transition-all duration-300" data-index="1" aria-label="Go to slide 2"></button>
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-border hover:bg-primary transition-all duration-300" data-index="2" aria-label="Go to slide 3"></button>
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-border hover:bg-primary transition-all duration-300" data-index="3" aria-label="Go to slide 4"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Success Stories / Testimonials -->
+    <section class="section section-alt">
+        <div class="container-custom">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-text-primary mb-4">
+                    Trusted by <span class="text-primary">African Leaders</span>
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    See how we've helped businesses across Africa achieve their digital transformation goals
+                </p>
+            </div>
+
+            <!-- Testimonials Carousel -->
+            <div class="relative max-w-5xl mx-auto">
+                <div id="testimonialsCarousel" class="overflow-hidden">
+                    <div class="flex transition-transform duration-500 ease-out">
+                        <!-- Testimonial 1 -->
+                        <div class="w-full flex-shrink-0 px-4">
+                            <div class="card-elevated">
+                                <div class="flex flex-col md:flex-row gap-6 items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1ec250f60-1763294449646.png" 
+                                             alt="Portrait of Amara Okafor, CEO of Lagos Tech Solutions, smiling confidently" 
+                                             class="w-24 h-24 rounded-full object-cover border-4 border-primary-100"
+                                             loading="lazy"
+                                             onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop'; this.onerror=null;">
+                                    </div>
+                                    <div class="flex-1 text-center md:text-left">
+                                        <div class="flex justify-center md:justify-start mb-3">
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg text-text-primary mb-4 italic">
+                                            "Dntech transformed our online presence completely. Their understanding of the African market and technical expertise helped us increase our customer base by 250% in just 6 months. They truly are partners in our success."
+                                        </p>
+                                        <div>
+                                            <p class="font-semibold text-text-primary">Amara Okafor</p>
+                                            <p class="text-sm text-text-secondary">CEO, Lagos Tech Solutions</p>
+                                            <p class="text-xs text-accent mt-1">Lagos, Nigeria</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="w-full flex-shrink-0 px-4">
+                            <div class="card-elevated">
+                                <div class="flex flex-col md:flex-row gap-6 items-center">
+                                    <div class="flex-shrink-0">
+                                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1276dced3-1763296874694.png" 
+                                             alt="Portrait of Kwame Mensah, IT Director of Accra Financial Group, in professional attire" 
+                                             class="w-24 h-24 rounded-full object-cover border-4 border-primary-100"
+                                             loading="lazy"
+                                             onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop'; this.onerror=null;">
+                                    </div>
+                                    <div class="flex-1 text-center md:text-left">
+                                        <div class="flex justify-center md:justify-start mb-3">
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                        </div>
+                                        <p class="text-lg text-text-primary mb-4 italic">
+                                            "The cybersecurity solutions from Dntech gave us peace of mind. Their 24/7 monitoring and rapid response team have protected us from multiple threats. Their expertise in African market challenges is unmatched."
+                                        </p>
+                                        <div>
+                                            <p class="font-semibold text-text-primary">Kwame Mensah</p>
+                                            <p class="text-sm text-text-secondary">IT Director, Accra Financial Group</p>
+                                            <p class="text-xs text-accent mt-1">Accra, Ghana</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Navigation -->
+                <div class="flex justify-center gap-2 mt-8">
+                    <button class="testimonial-dot w-3 h-3 rounded-full bg-primary transition-all duration-300" data-testimonial="0" aria-label="View testimonial 1"></button>
+                    <button class="testimonial-dot w-3 h-3 rounded-full bg-border hover:bg-primary transition-all duration-300" data-testimonial="1" aria-label="View testimonial 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos Section -->
+    <section class="py-12 bg-surface border-y border-border">
+        <div class="container-custom">
+            <p class="text-center text-text-secondary mb-8 font-medium">Trusted by leading organizations across Africa</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_131a8dd1a-1765436615394.png" 
+                         alt="African Bank Corporation logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/007bff/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_18d895877-1766433666486.png" 
+                         alt="East Africa Telecom logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/FF6B35/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_163115bcd-1766433667349.png" 
+                         alt="West African Retail Group logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/8B4513/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1a2526c0e-1766433666690.png" 
+                         alt="Southern Africa Mining Co logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/007bff/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_15a777937-1766433666813.png" 
+                         alt="Pan-African Healthcare logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/FF6B35/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+                <div class="flex justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1b3b8f04c-1765358995198.png" 
+                         alt="Continental Logistics logo" 
+                         class="h-12 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                         loading="lazy"
+                         onerror="this.src='https://via.placeholder.com/150x50/8B4513/ffffff?text=Client+Logo'; this.onerror=null;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section bg-surface">
+        <div class="container-custom">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 fade-in">
+                    <h2 class="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-text-primary">
+                        Why African Businesses <span class="text-primary">Choose Dntech</span>
+                    </h2>
+                    <p class="text-lg text-text-secondary">
+                        We understand the unique challenges and opportunities of doing business in Africa. Our solutions are designed with local context in mind while meeting global standards.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4 p-4 rounded-lg hover:bg-primary-50 transition-colors duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-semibold text-lg text-text-primary mb-1">Local Expertise, Global Standards</h3>
+                                <p class="text-text-secondary">Deep understanding of African markets combined with international best practices</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-lg hover:bg-primary-50 transition-colors duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-semibold text-lg text-text-primary mb-1">Transparent, Affordable Pricing</h3>
+                                <p class="text-text-secondary">No hidden costs, flexible payment plans designed for African businesses</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-lg hover:bg-primary-50 transition-colors duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-semibold text-lg text-text-primary mb-1">24/7 Dedicated Support</h3>
+                                <p class="text-text-secondary">Round-the-clock assistance across multiple time zones and languages</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-lg hover:bg-primary-50 transition-colors duration-300">
+                            <div class="flex-shrink-0 w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                                    <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-semibold text-lg text-text-primary mb-1">Proven Track Record</h3>
+                                <p class="text-text-secondary">500+ successful projects across 15 African countries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative slide-up">
+                    <div class="relative rounded-xl overflow-hidden shadow-elevated">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2940&auto=format&fit=crop" 
+                             alt="Diverse African business team collaborating on technology project in modern workspace" 
+                             class="w-full h-[500px] object-cover"
+                             loading="lazy"
+                             onerror="this.src='https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary-900/30 to-transparent"></div>
+                    </div>
+
+                    <!-- Stats Overlay -->
+                    <div class="absolute -bottom-6 -right-6 bg-surface rounded-xl shadow-elevated p-6 max-w-xs">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <p class="text-3xl font-bold text-primary">500+</p>
+                                <p class="text-sm text-text-secondary">Happy Clients</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-accent">15</p>
+                                <p class="text-sm text-text-secondary">Countries</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-secondary">98.5%</p>
+                                <p class="text-sm text-text-secondary">Success Rate</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-success">24/7</p>
+                                <p class="text-sm text-text-secondary">Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section bg-gradient-to-br from-primary to-primary-700 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="200" fill="white"/>
+                <circle cx="1100" cy="500" r="300" fill="white"/>
+            </svg>
+        </div>
+        
+        <div class="container-custom relative z-10">
+            <div class="max-w-4xl mx-auto text-center space-y-8">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl lg:text-5xl">
+                    Ready to Transform Your Business?
+                </h2>
+                <p class="text-lg md:text-xl text-primary-50">
+                    Join 500+ African businesses that trust Dntech for their technology needs. Let's build something amazing together.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="contact.html" class="btn bg-white text-primary hover:bg-primary-50">
+                        Get Free Consultation
+                        <svg class="w-5 h-5 ml-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                    <a href="services.html" class="btn border-2 border-white text-white hover:bg-white hover:text-primary">
+                        View Our Services
+                    </a>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="flex flex-wrap justify-center gap-8 pt-8 border-t border-primary-400">
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span>+256 750 687 268</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                        </svg>
+                        <span class="text-gray-400"><a href="mailto:dntech044@gmail.com">dntech044@gmail.com</a></span>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white">
+        <div class="container-custom py-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                            <img src ="../images/DN4.png" alt="Dntech Logo"   class="w-10 h-10 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none">
+                          
+                            <rect width="40" height="40" rx="8" fill="#007bff"/>
+                            <path d="M12 28V12H16.5C18.5 12 20 13 21 14.5C22 16 22 18 21 19.5C20 21 18.5 22 16.5 22H15V28H12ZM15 19H16.5C17.5 19 18 18.5 18.5 17.5C19 16.5 19 15.5 18.5 14.5C18 13.5 17.5 13 16.5 13H15V19Z" fill="white"/>
+                            <path d="M23 28V12H28L32 22V12H35V28H30L26 18V28H23Z" fill="#FF6B35"/>
+                        </svg>
+                        <div>
+                            <p class="font-heading font-bold text-xl">Dntech</p>
+                            
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">Africa's trusted technology partner, bridging the digital divide with reliable and innovative solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="homepage.html" class="text-gray-400 hover:text-white transition-colors duration-200">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Services</a></li>
+                        <li><a href="support.html" class="text-gray-400 hover:text-white transition-colors duration-200">Support</a></li>
+                        <li><a href="contactus.html" class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Web Development</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Network Solutions</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">IT Support</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Cybersecurity</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Contact Us</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-400">Nmataba, Mukono, Uganda</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <span class="text-gray-400">+256 750 687 268</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <span class="text-gray-400"><a href="mailto:dntech044@gmail.com">dntech044@gmail.com</a></span>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">© 2025 Dntech Africa's Tech Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Services Carousel
+        const servicesCarousel = document.getElementById('servicesCarousel');
+        const carouselDots = document.querySelectorAll('.carousel-dot');
+        let currentSlide = 0;
+
+        carouselDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateCarousel();
+            });
+        });
+
+        function updateCarousel() {
+            const slideWidth = servicesCarousel.querySelector('.flex-none').offsetWidth + 24; // width + gap
+            servicesCarousel.scrollTo({
+                left: currentSlide * slideWidth,
+                behavior: 'smooth'
+            });
+
+            carouselDots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.add('bg-primary');
+                    dot.classList.remove('bg-border');
+                } else {
+                    dot.classList.remove('bg-primary');
+                    dot.classList.add('bg-border');
+                }
+            });
+        }
+
+        // Auto-advance carousel
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % carouselDots.length;
+            updateCarousel();
+        }, 5000);
+
+        // Testimonials Carousel
+        const testimonialsCarousel = document.getElementById('testimonialsCarousel');
+        const testimonialDots = document.querySelectorAll('.testimonial-dot');
+        let currentTestimonial = 0;
+
+        testimonialDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentTestimonial = index;
+                updateTestimonials();
+            });
+        });
+
+        function updateTestimonials() {
+            const carousel = testimonialsCarousel.querySelector('.flex');
+            carousel.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+
+            testimonialDots.forEach((dot, index) => {
+                if (index === currentTestimonial) {
+                    dot.classList.add('bg-primary');
+                    dot.classList.remove('bg-border');
+                } else {
+                    dot.classList.remove('bg-primary');
+                    dot.classList.add('bg-border');
+                }
+            });
+        }
+
+        // Auto-advance testimonials
+        setInterval(() => {
+            currentTestimonial = (currentTestimonial + 1) % testimonialDots.length;
+            updateTestimonials();
+        }, 7000);
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in, .slide-up, .scale-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 Support Hub - Access comprehensive technical support, documentation, and client portal for Dntech Professional services across Africa.">
+    <meta name="keywords" content="IT support Africa, 24/7 tech support, client portal, technical documentation, help desk Africa, support tickets">
+    <title>24/7 Support Hub - Dntech</title>
+    <link rel="stylesheet" href="../css/main.css">
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdntechpro9801back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="font-body text-text-primary">
+    
+    <!-- Navigation Header -->
+    <header class="bg-surface shadow-card sticky top-0 z-50">
+        <nav class="container-custom">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <a href="homepage.html" class="flex items-center space-x-3 group">
+               <img src ="../images/DN4.png" alt="Dntech Logo"   class="w-10 h-10 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="#007bff"/>
+                        <path d="M12 28V12H16.5C18.5 12 20 13 21 14.5C22 16 22 18 21 19.5C20 21 18.5 22 16.5 22H15V28H12ZM15 19H16.5C17.5 19 18 18.5 18.5 17.5C19 16.5 19 15.5 18.5 14.5C18 13.5 17.5 13 16.5 13H15V19Z" fill="white"/>
+                        <path d="M23 28V12H28L32 22V12H35V28H30L26 18V28H23Z" fill="#FF6B35"/>
+                    </svg>
+                   
+                    <div class="flex flex-col">
+                        <span class="font-heading font-bold text-xl text-primary">Dntech</span>
+                        <!--span class="text-xs text-text-secondary">Professional</span-->
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Home</a>
+                    <a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-200">Services</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-colors duration-200">About</a>
+                    <a href="support.html" class="text-primary font-semibold border-b-2 border-primary pb-1 transition-colors duration-200">Support</a>
+                    <a href="contactus.html" class="btn-primary">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-md hover:bg-primary-50 transition-colors duration-200" aria-label="Toggle mobile menu">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobileMenu" class="hidden lg:hidden pb-4 space-y-3">
+                <a href="homepage.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">Home</a>
+                <a href="services.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">Services</a>
+                <a href="about.html" class="block px-4 py-2 text-text-secondary hover:bg-primary-50 hover:text-primary rounded-md transition-colors duration-200">About</a>
+                <a href="support.html" class="block px-4 py-2 text-primary font-semibold bg-primary-50 rounded-md">Support</a>
+                <a href="contactus.html" class="block px-4 py-2 text-center bg-primary text-white rounded-md hover:bg-primary-600 transition-colors duration-200">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 via-surface to-accent-50 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="300" cy="300" r="250" fill="#007bff"/>
+                <circle cx="900" cy="500" r="350" fill="#FF6B35"/>
+            </svg>
+        </div>
+        
+        <div class="container-custom relative z-10 py-16 lg:py-24">
+            <div class="max-w-4xl mx-auto text-center space-y-6 fade-in">
+                <div class="inline-flex items-center space-x-2 bg-success-50 px-4 py-2 rounded-full">
+                    <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-success font-semibold text-sm">24/7 Support Available</span>
+                </div>
+                
+                <h1 class="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-text-primary leading-tight">
+                    We're Here to <span class="text-primary">Help You Succeed</span>
+                </h1>
+                
+                <p class="text-lg md:text-xl text-text-secondary leading-relaxed max-w-3xl mx-auto">
+                    Access comprehensive support resources, manage your projects, and get instant help from our dedicated African support team available around the clock.
+                </p>
+
+                <!-- Quick Access Cards -->
+                <div class="grid md:grid-cols-3 gap-6 pt-8">
+                    <button onclick="showClientPortal()" class="card group hover:scale-105 transition-transform duration-300 text-left">
+                        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-6 h-6 text-primary group-hover:text-white transition-colors duration-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-heading font-semibold text-lg text-text-primary mb-2">Client Portal</h3>
+                        <p class="text-text-secondary text-sm">Access your dashboard and manage projects</p>
+                    </button>
+
+                    <button onclick="showTicketSystem()" class="card group hover:scale-105 transition-transform duration-300 text-left">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-6 h-6 text-accent group-hover:text-white transition-colors duration-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/>
+                                <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-heading font-semibold text-lg text-text-primary mb-2">Submit Ticket</h3>
+                        <p class="text-text-secondary text-sm">Get help with technical issues</p>
+                    </button>
+
+                    <button onclick="toggleLiveChat()" class="card group hover:scale-105 transition-transform duration-300 text-left">
+                        <div class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-success group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-6 h-6 text-success group-hover:text-white transition-colors duration-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-heading font-semibold text-lg text-text-primary mb-2">Live Chat</h3>
+                        <p class="text-text-secondary text-sm">Chat with support team now</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Portal Section -->
+    <section id="clientPortalSection" class="section bg-surface">
+        <div class="container-custom">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="font-heading font-bold text-3xl md:text-4xl text-text-primary mb-4">
+                        <span class="text-primary">Client Portal</span> Access
+                    </h2>
+                    <p class="text-lg text-text-secondary">Secure login to manage your projects and services</p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Login Form -->
+                    <div class="card-elevated">
+                        <div class="mb-6">
+                            <h3 class="font-heading font-semibold text-2xl text-text-primary mb-2">Welcome Back</h3>
+                            <p class="text-text-secondary">Sign in to access your dashboard</p>
+                        </div>
+
+                        <form id="loginForm" class="space-y-6" onsubmit="handleLogin(event)">
+                            <div>
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="client@company.com" required>
+                            </div>
+
+                            <div>
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" id="password" name="password" class="form-input" placeholder="Enter your password" required>
+                            </div>
+
+                            <div class="flex items-center justify-between">
+                                <label class="flex items-center space-x-2">
+                                    <input type="checkbox" class="w-4 h-4 text-primary border-border rounded focus:ring-primary-500">
+                                    <span class="text-sm text-text-secondary">Remember me</span>
+                                </label>
+                                <a href="javascript:void(0)" class="text-sm text-primary hover:text-primary-600 transition-colors duration-200">Forgot password?</a>
+                            </div>
+
+                            <button type="submit" class="btn-primary w-full">
+                                Sign In to Portal
+                                <svg class="w-5 h-5 ml-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                </svg>
+                            </button>
+                        </form>
+
+                        <div class="mt-6 pt-6 border-t border-border">
+                            <p class="text-sm text-text-secondary text-center">
+                                New client? <a href="contact.html" class="text-primary hover:text-primary-600 font-semibold transition-colors duration-200">Request access</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Portal Features -->
+                    <div class="space-y-6 slide-up">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                                    <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-lg text-text-primary mb-1">Project Tracking</h4>
+                                <p class="text-text-secondary">Monitor real-time progress, milestones, and deliverables</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                                    <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-lg text-text-primary mb-1">Service Management</h4>
+                                <p class="text-text-secondary">Manage subscriptions, invoices, and service requests</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-lg text-text-primary mb-1">Direct Communication</h4>
+                                <p class="text-text-secondary">Message your dedicated support team instantly</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center">
+                                <svg class="w-6 h-6 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-lg text-text-primary mb-1">Documentation Access</h4>
+                                <p class="text-text-secondary">View project docs, reports, and technical guides</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Resources Section -->
+    <section class="section section-alt">
+        <div class="container-custom">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="font-heading font-bold text-3xl md:text-4xl text-text-primary mb-4">
+                    Comprehensive <span class="text-primary">Support Resources</span>
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Everything you need to get the most out of our services
+                </p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="max-w-3xl mx-auto mb-12">
+                <div class="relative">
+                    <input type="text" id="searchResources" placeholder="Search documentation, FAQs, tutorials..." class="form-input pl-12 pr-4" onkeyup="filterResources()">
+                    <svg class="w-5 h-5 text-text-secondary absolute left-4 top-1/2 transform -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Resource Categories -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Documentation -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="https://images.unsplash.com/photo-1718113994174-a037d3790d87" 
+                             alt="Technical documentation and guides displayed on computer screen with organized file structure" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                             loading="lazy"
+                             onerror="this.src='https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2836&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Documentation</h3>
+                    <p class="text-text-secondary mb-4">Comprehensive guides and technical documentation for all our services</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Getting Started Guides</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>API Documentation</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Best Practices</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn-outline w-full">Browse Documentation</a>
+                </div>
+
+                <!-- Video Tutorials -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_15962e494-1764660074573.png" 
+                             alt="Video tutorial recording setup with professional lighting and camera equipment for technical training" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                             loading="lazy"
+                             onerror="this.src='https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-accent-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm0 4H4v2h1V9zm-1 4h1v2H4v-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Video Tutorials</h3>
+                    <p class="text-text-secondary mb-4">Step-by-step video guides for common tasks and features</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Setup Tutorials</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Feature Walkthroughs</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Troubleshooting Videos</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn-outline w-full">Watch Tutorials</a>
+                </div>
+
+                <!-- Knowledge Base -->
+                <div class="card group hover:scale-105 transition-transform duration-300">
+                    <div class="relative h-48 rounded-lg overflow-hidden mb-4">
+                        <img src="https://img.rocket.new/generatedImages/rocket_gen_img_11b60c534-1765470302098.png" 
+                             alt="Knowledge base interface showing organized articles and search functionality on modern display" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                             loading="lazy"
+                             onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;">
+                        <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="font-heading font-semibold text-xl text-text-primary mb-2">Knowledge Base</h3>
+                    <p class="text-text-secondary mb-4">Searchable articles covering all aspects of our services</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>How-to Articles</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Technical Guides</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-text-secondary">
+                            <svg class="w-4 h-4 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>FAQs</span>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="btn-outline w-full">Explore Knowledge Base</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-surface">
+        <div class="container-custom">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="font-heading font-bold text-3xl md:text-4xl text-text-primary mb-4">
+                        Frequently Asked <span class="text-primary">Questions</span>
+                    </h2>
+                    <p class="text-lg text-text-secondary">Quick answers to common questions</p>
+                </div>
+
+                <!-- FAQ Accordion -->
+                <div class="space-y-4">
+                    <div class="card">
+                        <button onclick="toggleFAQ(1)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">What are your support hours?</h3>
+                            <svg id="faqIcon1" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent1" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">We provide 24/7 support across all African time zones. Our dedicated support team is always available via live chat, email, and phone. For critical issues, we guarantee response times within 15 minutes.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button onclick="toggleFAQ(2)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">How do I access the client portal?</h3>
+                            <svg id="faqIcon2" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent2" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">Use the login form on this page with your registered email and password. If you're a new client, contact us to request portal access. You'll receive login credentials within 24 hours of service activation.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button onclick="toggleFAQ(3)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">What's the average response time for support tickets?</h3>
+                            <svg id="faqIcon3" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent3" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">Critical issues: 15 minutes | High priority: 2 hours | Medium priority: 8 hours | Low priority: 24 hours. We maintain a 98.5% on-time response rate and provide regular updates throughout the resolution process.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button onclick="toggleFAQ(4)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">Can I track my project progress in real-time?</h3>
+                            <svg id="faqIcon4" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent4" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">Yes! The client portal provides real-time project tracking with milestone updates, task completion status, and timeline visualization. You'll receive automatic notifications for important updates and can communicate directly with your project team.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button onclick="toggleFAQ(5)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">Do you offer training for new services?</h3>
+                            <svg id="faqIcon5" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent5" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">Absolutely! We provide comprehensive onboarding training for all new services, including video tutorials, documentation, and live training sessions. Our team ensures your staff is fully equipped to maximize the value of our solutions.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button onclick="toggleFAQ(6)" class="w-full flex items-center justify-between text-left">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary pr-4">What languages does your support team speak?</h3>
+                            <svg id="faqIcon6" class="w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="faqContent6" class="hidden mt-4 pt-4 border-t border-border">
+                            <p class="text-text-secondary">Our support team speaks English, French, Swahili, Arabic, and Portuguese, covering the major languages across Africa. We can also arrange support in additional local languages based on your specific needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ticket System Section -->
+    <section id="ticketSystemSection" class="section section-alt">
+        <div class="container-custom">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="font-heading font-bold text-3xl md:text-4xl text-text-primary mb-4">
+                        Submit a <span class="text-primary">Support Ticket</span>
+                    </h2>
+                    <p class="text-lg text-text-secondary">Get help with technical issues and service requests</p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Ticket Form -->
+                    <div class="lg:col-span-2">
+                        <div class="card-elevated">
+                            <form id="ticketForm" class="space-y-6" onsubmit="handleTicketSubmit(event)">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="ticketName" class="form-label">Full Name</label>
+                                        <input type="text" id="ticketName" name="ticketName" class="form-input" placeholder="John Doe" required>
+                                    </div>
+                                    <div>
+                                        <label for="ticketEmail" class="form-label">Email Address</label>
+                                        <input type="email" id="ticketEmail" name="ticketEmail" class="form-input" placeholder="john@company.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="ticketPriority" class="form-label">Priority Level</label>
+                                        <select id="ticketPriority" name="ticketPriority" class="form-input" required>
+                                            <option value="">Select priority</option>
+                                            <option value="critical">Critical - System Down</option>
+                                            <option value="high">High - Major Impact</option>
+                                            <option value="medium">Medium - Moderate Impact</option>
+                                            <option value="low">Low - Minor Issue</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="ticketCategory" class="form-label">Category</label>
+                                        <select id="ticketCategory" name="ticketCategory" class="form-input" required>
+                                            <option value="">Select category</option>
+                                            <option value="technical">Technical Issue</option>
+                                            <option value="billing">Billing Question</option>
+                                            <option value="feature">Feature Request</option>
+                                            <option value="security">Security Concern</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="ticketSubject" class="form-label">Subject</label>
+                                    <input type="text" id="ticketSubject" name="ticketSubject" class="form-input" placeholder="Brief description of the issue" required>
+                                </div>
+
+                                <div>
+                                    <label for="ticketDescription" class="form-label">Detailed Description</label>
+                                    <textarea id="ticketDescription" name="ticketDescription" rows="6" class="form-input" placeholder="Please provide as much detail as possible about your issue..." required></textarea>
+                                    <p class="text-sm text-text-secondary mt-2">Include error messages, steps to reproduce, and any relevant screenshots</p>
+                                </div>
+
+                                <div>
+                                    <label for="ticketAttachment" class="form-label">Attachments (Optional)</label>
+                                    <div class="border-2 border-dashed border-border rounded-lg p-6 text-center hover:border-primary transition-colors duration-200">
+                                        <svg class="w-12 h-12 text-text-secondary mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+                                        </svg>
+                                        <p class="text-text-secondary mb-2">Drop files here or click to upload</p>
+                                        <p class="text-sm text-text-secondary">PNG, JPG, PDF up to 10MB</p>
+                                        <input type="file" id="ticketAttachment" name="ticketAttachment" class="hidden" multiple accept=".png,.jpg,.jpeg,.pdf">
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn-primary w-full">
+                                    Submit Ticket
+                                    <svg class="w-5 h-5 ml-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Priority Guide & Response Times -->
+                    <div class="space-y-6">
+                        <div class="card">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary mb-4">Response Times</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-3 h-3 bg-error rounded-full mt-1.5 flex-shrink-0"></div>
+                                    <div>
+                                        <p class="font-semibold text-text-primary text-sm">Critical</p>
+                                        <p class="text-xs text-text-secondary">15 minutes</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-3 h-3 bg-warning rounded-full mt-1.5 flex-shrink-0"></div>
+                                    <div>
+                                        <p class="font-semibold text-text-primary text-sm">High</p>
+                                        <p class="text-xs text-text-secondary">2 hours</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-3 h-3 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
+                                    <div>
+                                        <p class="font-semibold text-text-primary text-sm">Medium</p>
+                                        <p class="text-xs text-text-secondary">8 hours</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-3 h-3 bg-success rounded-full mt-1.5 flex-shrink-0"></div>
+                                    <div>
+                                        <p class="font-semibold text-text-primary text-sm">Low</p>
+                                        <p class="text-xs text-text-secondary">24 hours</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-primary-50">
+                            <div class="flex items-start space-x-3">
+                                <svg class="w-6 h-6 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                                </svg>
+                                <div>
+                                    <h4 class="font-semibold text-primary mb-2">Pro Tip</h4>
+                                    <p class="text-sm text-text-secondary">Include screenshots, error messages, and steps to reproduce the issue for faster resolution.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3 class="font-heading font-semibold text-lg text-text-primary mb-4">Need Urgent Help?</h3>
+                            <div class="space-y-3">
+                                <button onclick="toggleLiveChat()" class="btn-accent w-full">
+                                    <svg class="w-5 h-5 mr-2 inline-block" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Start Live Chat
+                                </button>
+                                <a href="tel:+2348001234567" class="btn-outline w-full">
+                                    <svg class="w-5 h-5 mr-2 inline-block" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                                    </svg>
+                                    Call Support
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Chat Widget (Hidden by default) -->
+    <div id="liveChatWidget" class="hidden fixed bottom-6 right-6 w-96 max-w-[calc(100vw-3rem)] bg-surface rounded-xl shadow-modal z-50 overflow-hidden">
+        <div class="bg-primary text-white p-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div>
+                    <p class="font-semibold">Live Support</p>
+                    <p class="text-xs text-primary-100">Typically replies in minutes</p>
+                </div>
+            </div>
+            <button onclick="toggleLiveChat()" class="text-white hover:text-primary-100 transition-colors duration-200">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="h-96 overflow-y-auto p-4 space-y-4 bg-background">
+            <div class="flex items-start space-x-3">
+                <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div class="bg-surface rounded-lg p-3 shadow-card max-w-[80%]">
+                    <p class="text-sm text-text-primary">Hello! Welcome to Dntech Support. How can I help you today?</p>
+                    <p class="text-xs text-text-secondary mt-1">Just now</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-4 border-t border-border">
+            <form onsubmit="sendChatMessage(event)" class="flex items-center space-x-2">
+                <input type="text" id="chatMessage" placeholder="Type your message..." class="form-input flex-1" required>
+                <button type="submit" class="btn-primary px-4 py-3">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Live Chat Floating Button -->
+    <button id="liveChatButton" onclick="toggleLiveChat()" class="fixed bottom-6 right-6 w-16 h-16 bg-accent text-white rounded-full shadow-elevated hover:bg-accent-600 transition-all duration-300 hover:scale-110 z-40 flex items-center justify-center">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+        </svg>
+        <span class="absolute -top-1 -right-1 w-4 h-4 bg-success rounded-full border-2 border-white"></span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white">
+        <div class="container-custom py-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <a href="homepage.html" class="flex items-center space-x-3 group">
+                            <img src ="../images/DN4.png" alt="Dntech Logo"   class="w-10 h-10 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none">
+                        <!--svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"-->
+                            <rect width="40" height="40" rx="8" fill="#007bff"/>
+                            <path d="M12 28V12H16.5C18.5 12 20 13 21 14.5C22 16 22 18 21 19.5C20 21 18.5 22 16.5 22H15V28H12ZM15 19H16.5C17.5 19 18 18.5 18.5 17.5C19 16.5 19 15.5 18.5 14.5C18 13.5 17.5 13 16.5 13H15V19Z" fill="white"/>
+                            <path d="M23 28V12H28L32 22V12H35V28H30L26 18V28H23Z" fill="#FF6B35"/>
+                        </svg>
+                        <div>
+                            <p class="font-heading font-bold text-xl">Dntech</p>
+                            <!--p class="text-sm text-gray-400">Professional</p-->
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">Africa's trusted technology partner, bridging the digital divide with reliable and innovative solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-200" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="homepage.html" class="text-gray-400 hover:text-white transition-colors duration-200">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors duration-200">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors duration-200">Services</a></li>
+                        <li><a href="support.html" class="text-gray-400 hover:text-white transition-colors duration-200">Support</a></li>
+                        <li><a href="contactus.html" class="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="javascript:void(0)" onclick="showClientPortal()" class="text-gray-400 hover:text-white transition-colors duration-200">Client Portal</a></li>
+                        <li><a href="javascript:void(0)" onclick="showTicketSystem()" class="text-gray-400 hover:text-white transition-colors duration-200">Submit Ticket</a></li>
+                        <li><a href="javascript:void(0)" class="text-gray-400 hover:text-white transition-colors duration-200">Documentation</a></li>
+                        <li><a href="javascript:void(0)" class="text-gray-400 hover:text-white transition-colors duration-200">Knowledge Base</a></li>
+                        <li><a href="javascript:void(0)" onclick="toggleLiveChat()" class="text-gray-400 hover:text-white transition-colors duration-200">Live Chat</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Contact Us</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-400">Namataba, Mukono, Uganda</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <span class="text-gray-400">+256 750 687 268</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <span class="text-gray-400">
+                            <a href="mailto:dntech044@gmail.com">dntech044@gmail.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">© 2025 Dntech- Africa's Tech Solutions. All Rights Reserved.</p>
+                <!--p>&copy; ${currentYear} Dntech - Africa's Tech Solutions. All rights reserved.</p-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Show Client Portal Section
+        function showClientPortal() {
+            document.getElementById('clientPortalSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Show Ticket System Section
+        function showTicketSystem() {
+            document.getElementById('ticketSystemSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Toggle Live Chat Widget
+        function toggleLiveChat() {
+            const chatWidget = document.getElementById('liveChatWidget');
+            const chatButton = document.getElementById('liveChatButton');
+            
+            chatWidget.classList.toggle('hidden');
+            chatButton.classList.toggle('hidden');
+        }
+
+        // Handle Login Form
+        function handleLogin(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Mock login validation
+            if (email && password) {
+                alert('Login successful! Redirecting to your dashboard...');
+                // In production, this would redirect to the actual dashboard
+                setTimeout(() => {
+                    window.location.href = 'javascript:void(0)';
+                }, 1500);
+            }
+        }
+
+        // Handle Ticket Submission
+        function handleTicketSubmit(event) {
+            event.preventDefault();
+            const form = document.getElementById('ticketForm');
+            const formData = new FormData(form);
+
+            // Mock ticket submission
+            alert('Support ticket submitted successfully! You will receive a confirmation email shortly. Ticket ID: #' + Math.floor(Math.random() * 100000));
+            form.reset();
+        }
+
+        // Send Chat Message
+        function sendChatMessage(event) {
+            event.preventDefault();
+            const messageInput = document.getElementById('chatMessage');
+            const message = messageInput.value;
+
+            if (message.trim()) {
+                // Mock chat message sending
+                const chatContainer = document.querySelector('#liveChatWidget .overflow-y-auto');
+                const messageDiv = document.createElement('div');
+                messageDiv.className = 'flex items-start space-x-3 justify-end';
+                messageDiv.innerHTML = `
+                    <div class="bg-primary text-white rounded-lg p-3 shadow-card max-w-[80%]">
+                        <p class="text-sm">${message}</p>
+                        <p class="text-xs text-primary-100 mt-1">Just now</p>
+                    </div>
+                    <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                `;
+                chatContainer.appendChild(messageDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+                messageInput.value = '';
+
+                // Mock auto-response
+                setTimeout(() => {
+                    const responseDiv = document.createElement('div');
+                    responseDiv.className = 'flex items-start space-x-3';
+                    responseDiv.innerHTML = `
+                        <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="bg-surface rounded-lg p-3 shadow-card max-w-[80%]">
+                            <p class="text-sm text-text-primary">Thank you for your message. A support agent will be with you shortly.</p>
+                            <p class="text-xs text-text-secondary mt-1">Just now</p>
+                        </div>
+                    `;
+                    chatContainer.appendChild(responseDiv);
+                    chatContainer.scrollTop = chatContainer.scrollHeight;
+                }, 2000);
+            }
+        }
+
+        // Toggle FAQ
+        function toggleFAQ(index) {
+            const content = document.getElementById(`faqContent${index}`);
+            const icon = document.getElementById(`faqIcon${index}`);
+            
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Filter Resources
+        function filterResources() {
+            const searchTerm = document.getElementById('searchResources').value.toLowerCase();
+            // In production, this would filter the actual resource cards
+            console.log('Searching for:', searchTerm);
+        }
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in, .slide-up, .scale-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // File upload interaction
+        const fileInput = document.getElementById('ticketAttachment');
+        const uploadArea = fileInput.parentElement;
+
+        uploadArea.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('border-primary', 'bg-primary-50');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('border-primary', 'bg-primary-50');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('border-primary', 'bg-primary-50');
+            const files = e.dataTransfer.files;
+            fileInput.files = files;
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
